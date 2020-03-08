@@ -1,13 +1,23 @@
+html{
+    height: 100%;
+}
 
 body {
     font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     padding-top: 54px;
     color: #868e96;
+    height: 100%;
+}
+
+body.project-page{
+    background: black;
 }
 
 @media (min-width: 992px) {
     body {
         padding-top: 0;
+    }
+    body.home-page{
         padding-left: 17rem;
     }
 }
@@ -175,4 +185,18 @@ hr.section-seperator {
     background-color: #02006e;
     width: calc(100% - 100px);
     margin-left: 0;
+}
+
+/* Project page */
+div.carousel {
+    height: 100%;
+}
+
+div.carousel div.carousel-inner{
+    height: 100%;
+}
+
+div.carousel div.carousel-inner .carousel-item{
+    height: 100%;
+    object-fit: contain;
 }
