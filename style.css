@@ -203,3 +203,22 @@ div.carousel div.carousel-inner .carousel-item img{
     height: 100%;
     object-fit: contain;
 }
+div.carousel .carousel-control-next-icon,
+div.carousel .carousel-control-prev-icon{
+    border-radius: 50%;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    background: no-repeat 50%/100% 50%;
+}
+div.carousel .carousel-indicators li{
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    box-shadow: 0px 0px 2px black;
+}
+div.carousel .carousel-indicators .active {
+    box-shadow: 0px 0px 8px black;
+    background: darkgray;
+}
