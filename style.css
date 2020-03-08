@@ -209,7 +209,9 @@ div.carousel .carousel-control-prev-icon{
     background-color: black;
     width: 40px;
     height: 40px;
-    background: no-repeat 50%/100% 50%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50% 50%;
 }
 div.carousel .carousel-indicators li{
     border-top: 1px solid transparent;
